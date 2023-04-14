@@ -64,7 +64,7 @@ with open(gv) as gv_file:
                                 chroms[gc_chrom] = []
                             chroms[gc_chrom].append(gc_values)
 
-            #Convert list of genese to string
+            #Convert list of genes to string
             #with format: 'gene1;gene2;gene3' or '.' if empty
             genesString = ';'.join(genes)
             if genesString == '':
